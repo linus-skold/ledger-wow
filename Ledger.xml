@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\..\FrameXML\UI.xsd">
+	<Frame name="MacroMaster" parent="UIParent" inherits="DefaultPanelTemplate">
+		<Size x="200" y="200" />
+		<Anchors>
+			<Anchor point="CENTER" />
+		</Anchors>
+		<Frames>
+			<Button parentKey="CloseButton" inherits="UIPanelCloseButtonDefaultAnchors" />
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				self.TitleContainer.TitleText:SetText("Ledger")
+			</OnLoad>
+		</Scripts>
+
+		<Frame name="MacroMaster_input" hidden="true">
+			
+		</Frame>
+	</Frame>
+</Ui>

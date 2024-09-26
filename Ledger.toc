@@ -1,0 +1,9 @@
+## Interface: 110002
+## Title: Ledger
+## Author: linus-skold
+## Notes: A simple ledger for tracking your gold, currencies and transactions.
+##SavedVariables: AccountLedgerDB
+##SavedVariablesPerCharacter: CharacterLedger
+
+ArtTextureID.lua
+Ledger.lua
